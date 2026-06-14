@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://babrvk68rdwuw"]
+
+[ext_resource type="Texture2D" uid="uid://dhasmwdic2dqw" path="res://assets/card images/Egg.png" id="1_ivtb5"]
+[ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/CardData.gd" id="2_3nfph"]
+
+[resource]
+script = ExtResource("2_3nfph")
+image = ExtResource("1_ivtb5")
+answer = "Egg"
+hint_meaning = "Food item,
+Can be found in the kitchen,
+Laid by a chicken"
+hint_spelling = Array[String](["E", "G", "G"])
+metadata/_custom_type_script = "uid://bjbn6skn2hnwh"

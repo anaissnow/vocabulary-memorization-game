@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cv3k8pmddjue7"]
+
+[ext_resource type="Texture2D" uid="uid://byeu0vjdfem0o" path="res://assets/card images/Jar.png" id="1_r0m28"]
+[ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/CardData.gd" id="2_fkvgh"]
+
+[resource]
+script = ExtResource("2_fkvgh")
+image = ExtResource("1_r0m28")
+answer = "Jar"
+hint_meaning = "Made of glass,
+Found in the kitchen,
+Used to store liquid"
+hint_spelling = Array[String](["J", "A", "R"])
+metadata/_custom_type_script = "uid://bjbn6skn2hnwh"

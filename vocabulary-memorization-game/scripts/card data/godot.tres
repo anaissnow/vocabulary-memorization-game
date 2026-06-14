@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://c0ikp7c5htdg3"]
+
+[ext_resource type="Texture2D" uid="uid://b23amhch05gcg" path="res://icon.svg" id="1_168dm"]
+[ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/CardData.gd" id="2_6co8d"]
+
+[resource]
+script = ExtResource("2_6co8d")
+image = ExtResource("1_168dm")
+answer = "Godot"
+hint_meaning = "Gear-shaped head,
+Mascot for a game engine,
+The brand of a free open-source software"
+hint_spelling = Array[String](["G", "O", "D", "O", "T"])
+metadata/_custom_type_script = "uid://bjbn6skn2hnwh"
