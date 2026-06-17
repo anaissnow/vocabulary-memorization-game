@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://c6eophji132s3"]
+
+[ext_resource type="Texture2D" uid="uid://cckpkcwy1yif2" path="res://assets/card images/teacher.svg" id="1_mhbmo"]
+[ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="2_b2yes"]
+
+[resource]
+script = ExtResource("2_b2yes")
+image = ExtResource("1_mhbmo")
+answer = "teacher"
+hint_meaning = "works in schools,
+teach you different subjects"
+hint_spelling = Array[String](["t", "e", "a", "c", "h", "e", "r"])
+metadata/_custom_type_script = "uid://bjbn6skn2hnwh"

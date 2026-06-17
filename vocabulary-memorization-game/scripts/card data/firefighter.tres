@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cog1vonx23440"]
+
+[ext_resource type="Texture2D" uid="uid://bw53oaba7qbfw" path="res://assets/card images/920x920.jpg" id="1_x1tb0"]
+[ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="2_a37ee"]
+
+[resource]
+script = ExtResource("2_a37ee")
+image = ExtResource("1_x1tb0")
+answer = "firefighter"
+hint_meaning = "a career,
+responds to emergency that involves fire or natural disasters,
+works in the fire department"
+hint_spelling = Array[String](["f", "i", "r", "e", "f", "i", "g", "h", "t", "e", "r"])
+difficulty = 2
+metadata/_custom_type_script = "uid://bjbn6skn2hnwh"
