@@ -11,7 +11,8 @@ func _ready() -> void:
 	var image = card_front.get_node("%TextureRect")
 	var label = card_front.get_node("%Label")
 	label.text = "".join(card.hint_spelling)
-	image = card.image
+	print(label.text)
+	image.texture = card.image
 
 func _on_reset_pressed() -> void:
 	get_tree().reload_current_scene()
