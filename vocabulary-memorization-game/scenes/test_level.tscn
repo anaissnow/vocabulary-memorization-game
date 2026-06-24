@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://cauu7jhe00wfc"]
+
+[ext_resource type="Script" uid="uid://ch6mbox4xyywi" path="res://scripts/test_level.gd" id="1_ahbqi"]
+[ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="2_7gix3"]
+[ext_resource type="Resource" uid="uid://babrvk68rdwuw" path="res://scripts/card data/egg.tres" id="3_4asn1"]
+[ext_resource type="Resource" uid="uid://cv3k8pmddjue7" path="res://scripts/card data/jar.tres" id="4_dw7u0"]
+[ext_resource type="Resource" uid="uid://blt7v3glbhwa2" path="res://scripts/card data/chair.tres" id="5_fyxdr"]
+[ext_resource type="Resource" uid="uid://c0ikp7c5htdg3" path="res://scripts/card data/godot.tres" id="6_kpk0m"]
+[ext_resource type="Resource" uid="uid://c6eophji132s3" path="res://scripts/card data/teacher.tres" id="7_qs1vn"]
+[ext_resource type="Resource" uid="uid://cog1vonx23440" path="res://scripts/card data/firefighter.tres" id="8_13hs1"]
+[ext_resource type="PackedScene" uid="uid://dslfvda24cytw" path="res://scenes/ui/card_front.tscn" id="9_7gix3"]
+
+[node name="TestLevel" type="Node2D" unique_id=41328260]
+script = ExtResource("1_ahbqi")
+cards = Array[ExtResource("2_7gix3")]([ExtResource("3_4asn1"), ExtResource("4_dw7u0"), ExtResource("5_fyxdr"), ExtResource("6_kpk0m"), ExtResource("7_qs1vn"), ExtResource("8_13hs1")])
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1397606924]
+
+[node name="CardFront" parent="CanvasLayer" unique_id=225734269 instance=ExtResource("9_7gix3")]
+offset_left = -287.25
+offset_top = -192.75
+offset_right = 287.25
+offset_bottom = 192.75
+
+[node name="Reset" type="Button" parent="CanvasLayer" unique_id=486303882]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -25.0
+offset_top = -77.0
+offset_right = 26.0
+offset_bottom = -46.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Reset"
+
+[connection signal="pressed" from="CanvasLayer/Reset" to="." method="_on_reset_pressed"]
