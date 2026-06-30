@@ -9,10 +9,13 @@
 [ext_resource type="Resource" uid="uid://c6eophji132s3" path="res://scripts/card data/teacher.tres" id="7_qs1vn"]
 [ext_resource type="Resource" uid="uid://cog1vonx23440" path="res://scripts/card data/firefighter.tres" id="8_13hs1"]
 [ext_resource type="PackedScene" uid="uid://dslfvda24cytw" path="res://scenes/ui/card_front.tscn" id="9_7gix3"]
+[ext_resource type="Resource" uid="uid://c84tf4elmdm1i" path="res://scripts/card data/smartphone.tres" id="9_fyxdr"]
+[ext_resource type="Resource" uid="uid://c76q2ycyf7mvh" path="res://scripts/card data/dog.tres" id="10_kpk0m"]
+[ext_resource type="Resource" uid="uid://begw835lgsgne" path="res://scripts/card data/cat.tres" id="11_qs1vn"]
 
 [node name="TestLevel" type="Node2D" unique_id=41328260]
 script = ExtResource("1_ahbqi")
-cards = Array[ExtResource("2_7gix3")]([ExtResource("3_4asn1"), ExtResource("4_dw7u0"), ExtResource("5_fyxdr"), ExtResource("6_kpk0m"), ExtResource("7_qs1vn"), ExtResource("8_13hs1")])
+cards = Array[ExtResource("2_7gix3")]([ExtResource("3_4asn1"), ExtResource("4_dw7u0"), ExtResource("5_fyxdr"), ExtResource("6_kpk0m"), ExtResource("7_qs1vn"), ExtResource("8_13hs1"), ExtResource("9_fyxdr"), ExtResource("10_kpk0m"), ExtResource("11_qs1vn")])
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1397606924]
 

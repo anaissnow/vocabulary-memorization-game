@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://c76q2ycyf7mvh"]
+
+[ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="1_woi3e"]
+
+[resource]
+script = ExtResource("1_woi3e")
+answer = "dog"
+hint_meaning = "animal,
+kept as pet,
+man's best friend"
+hint_spelling = Array[String](["d", "o", "g"])
+metadata/_custom_type_script = "uid://bjbn6skn2hnwh"

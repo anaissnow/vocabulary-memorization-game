@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="CardData" format=3 uid="uid://blt7v3glbhwa2"]
 
-[ext_resource type="Texture2D" uid="uid://c3drrqigrrwhe" path="res://assets/card images/chair-png-40529.png" id="1_qcwrh"]
+[ext_resource type="Texture2D" uid="uid://hx0y58dllsls" path="res://assets/card images/chair.svg" id="1_qcwrh"]
 [ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="2_5yfkd"]
 
 [resource]

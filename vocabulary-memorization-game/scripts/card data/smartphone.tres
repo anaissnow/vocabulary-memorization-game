@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://c84tf4elmdm1i"]
+
+[ext_resource type="Texture2D" uid="uid://cwd70cs3wbiyo" path="res://assets/card images/smartphone.png" id="1_rdjlr"]
+[ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="2_jkyid"]
+
+[resource]
+script = ExtResource("2_jkyid")
+image = ExtResource("1_rdjlr")
+answer = "SMARTPHONE"
+hint_meaning = "A rectangular metal with glass screen,
+You can play games and search for information,
+Everybody has it"
+hint_spelling = Array[String](["S", "M", "A", "R", "T", "P", "H", "O", "N", "E"])
+difficulty = 2
+metadata/_custom_type_script = "uid://bjbn6skn2hnwh"
