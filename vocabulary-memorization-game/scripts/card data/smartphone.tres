@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="CardData" format=3 uid="uid://c84tf4elmdm1i"]
 
-[ext_resource type="Texture2D" uid="uid://cwd70cs3wbiyo" path="res://assets/card images/smartphone.png" id="1_rdjlr"]
+[ext_resource type="Texture2D" uid="uid://cjteix7mfmbis" path="res://assets/card images/smartphone.png" id="1_rdjlr"]
 [ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="2_jkyid"]
 
 [resource]

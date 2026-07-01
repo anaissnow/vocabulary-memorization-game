@@ -1,17 +1,18 @@
 extends Node2D
+## test_level.gd
 
 
 @onready var card_front: Panel = $CanvasLayer/CardFront
+@onready var keyboard: GridContainer = $CanvasLayer/Keyboard
 
 @export var cards: Array[CardData]
 
 
 func _ready() -> void:
+	keyboard.key_pressed.connect(card_front.append_letter)
 	var card = cards.pick_random()
 	var image = card_front.get_node("%TextureRect")
-	var label = card_front.get_node("%Label")
-	label.text = "".join(card.hint_spelling)
-	print(label.text)
+	print(card_front.get_answer_text)
 	image.texture = card.image
 
 func _on_reset_pressed() -> void:

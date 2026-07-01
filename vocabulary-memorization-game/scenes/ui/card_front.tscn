@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://dslfvda24cytw"]
 
+[ext_resource type="Script" uid="uid://b4kpc6q7f17h7" path="res://scripts/flashcard.gd" id="1_oun40"]
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xlc1h"]
 bg_color = Color(1, 1, 1, 1)
 corner_radius_top_left = 10
@@ -15,13 +17,14 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -219.0
-offset_top = -133.0
-offset_right = 219.0
-offset_bottom = 133.0
+offset_left = -287.25
+offset_top = -192.75
+offset_right = 287.25
+offset_bottom = 192.75
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_xlc1h")
+script = ExtResource("1_oun40")
 
 [node name="CenterContainer" type="CenterContainer" parent="." unique_id=1656072473]
 custom_minimum_size = Vector2(574.5, 385.5)
@@ -46,8 +49,7 @@ theme_override_constants/separation = 20
 unique_name_in_owner = true
 layout_mode = 2
 
-[node name="Label" type="Label" parent="CenterContainer/VBoxContainer" unique_id=1300080457]
-unique_name_in_owner = true
+[node name="AnswerLabel" type="Label" parent="CenterContainer/VBoxContainer" unique_id=1300080457]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 horizontal_alignment = 1

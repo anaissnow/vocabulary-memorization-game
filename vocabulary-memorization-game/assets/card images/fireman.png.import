@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bw53oaba7qbfw"
-path="res://.godot/imported/920x920.jpg-3d1d16e0ac05babab2fcef8465ec1253.ctex"
+uid="uid://dd5i7ctrd4fhi"
+path="res://.godot/imported/fireman.png-dcc0f8a854258d56a496b3393eb7e01a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/card images/920x920.jpg"
-dest_files=["res://.godot/imported/920x920.jpg-3d1d16e0ac05babab2fcef8465ec1253.ctex"]
+source_file="res://assets/card images/fireman.png"
+dest_files=["res://.godot/imported/fireman.png-dcc0f8a854258d56a496b3393eb7e01a.ctex"]
 
 [params]
 

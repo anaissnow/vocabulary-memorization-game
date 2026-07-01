@@ -1,4 +1,5 @@
 extends Control
+## main_menu.gd
 
 @onready var play_button: Button = $CanvasLayer/MarginContainer/VBoxContainer/PlayButton
 @onready var settings_button: Button = $CanvasLayer/MarginContainer/VBoxContainer/SettingsButton
