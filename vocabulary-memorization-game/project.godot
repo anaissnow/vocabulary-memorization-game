@@ -15,6 +15,10 @@ run/main_scene="uid://dd4ixh01ueche"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
 
+[autoload]
+
+AudioController="*uid://dsyclh226nlwl"
+
 [physics]
 
 3d/physics_engine="Jolt Physics"

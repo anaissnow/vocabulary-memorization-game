@@ -7,12 +7,15 @@ extends Control
 var level = preload("uid://cauu7jhe00wfc")
 
 func _on_play_button_pressed() -> void:
+	AudioController.play_button()
 	get_tree().change_scene_to_packed(level)
 
 
 func _on_settings_button_pressed() -> void:
+	AudioController.play_button()
 	pass # Replace with function body.
 
 
 func _on_quit_button_pressed() -> void:
+	AudioController.play_button()
 	get_tree().quit()

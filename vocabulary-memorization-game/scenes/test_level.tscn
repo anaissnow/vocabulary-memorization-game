@@ -30,20 +30,6 @@ offset_right = 287.5
 offset_bottom = 443.5
 grow_vertical = 1
 
-[node name="Reset" type="Button" parent="CanvasLayer" unique_id=486303882]
-anchors_preset = 7
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-offset_left = -25.0
-offset_top = -41.0
-offset_right = 26.0
-offset_bottom = -10.0
-grow_horizontal = 2
-grow_vertical = 0
-text = "Reset"
-
 [node name="Keyboard" type="GridContainer" parent="CanvasLayer" unique_id=1625909920]
 anchors_preset = 7
 anchor_left = 0.5
@@ -62,133 +48,164 @@ script = ExtResource("13_kpk0m")
 
 [node name="Q" type="Button" parent="CanvasLayer/Keyboard" unique_id=1370488240]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "Q"
 
 [node name="W" type="Button" parent="CanvasLayer/Keyboard" unique_id=1133610947]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "W"
 
 [node name="E" type="Button" parent="CanvasLayer/Keyboard" unique_id=1774815798]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "E"
 
 [node name="R" type="Button" parent="CanvasLayer/Keyboard" unique_id=1157323584]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "R"
 
 [node name="T" type="Button" parent="CanvasLayer/Keyboard" unique_id=931705174]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "T"
 
 [node name="Y" type="Button" parent="CanvasLayer/Keyboard" unique_id=1464779296]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "Y"
 
 [node name="U" type="Button" parent="CanvasLayer/Keyboard" unique_id=374468351]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "U"
 
 [node name="I" type="Button" parent="CanvasLayer/Keyboard" unique_id=1798220468]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "I"
 
 [node name="O" type="Button" parent="CanvasLayer/Keyboard" unique_id=1711003868]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "O"
 
 [node name="P" type="Button" parent="CanvasLayer/Keyboard" unique_id=1639381943]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "P"
 
 [node name="A" type="Button" parent="CanvasLayer/Keyboard" unique_id=864035072]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "A"
 
 [node name="S" type="Button" parent="CanvasLayer/Keyboard" unique_id=43427942]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "S"
 
 [node name="D" type="Button" parent="CanvasLayer/Keyboard" unique_id=1147216625]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "D"
 
 [node name="F" type="Button" parent="CanvasLayer/Keyboard" unique_id=25677887]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "F"
 
 [node name="G" type="Button" parent="CanvasLayer/Keyboard" unique_id=373007004]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "G"
 
 [node name="H" type="Button" parent="CanvasLayer/Keyboard" unique_id=73638237]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "H"
 
 [node name="J" type="Button" parent="CanvasLayer/Keyboard" unique_id=1842190614]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "J"
 
 [node name="K" type="Button" parent="CanvasLayer/Keyboard" unique_id=192491916]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "K"
 
 [node name="L" type="Button" parent="CanvasLayer/Keyboard" unique_id=1763931267]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "L"
 
 [node name="Z" type="Button" parent="CanvasLayer/Keyboard" unique_id=898778661]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "Z"
 
 [node name="X" type="Button" parent="CanvasLayer/Keyboard" unique_id=1821855538]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "X"
 
 [node name="C" type="Button" parent="CanvasLayer/Keyboard" unique_id=1112760248]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "C"
 
 [node name="V" type="Button" parent="CanvasLayer/Keyboard" unique_id=1588880290]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "V"
 
 [node name="B" type="Button" parent="CanvasLayer/Keyboard" unique_id=1919250395]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "B"
 
 [node name="N" type="Button" parent="CanvasLayer/Keyboard" unique_id=2015678270]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "N"
 
 [node name="M" type="Button" parent="CanvasLayer/Keyboard" unique_id=2145711659]
 custom_minimum_size = Vector2(30, 30)
+custom_maximum_size = Vector2(30, 30)
 layout_mode = 2
 text = "M"
+
+[node name="Backspace" type="Button" parent="CanvasLayer/Keyboard" unique_id=1403596565]
+custom_minimum_size = Vector2(90, 40)
+layout_mode = 2
+text = "Backspace"
 
 [node name="HintButton" type="Button" parent="CanvasLayer" unique_id=1702076692]
 anchors_preset = 1
@@ -216,5 +233,33 @@ grow_horizontal = 0
 grow_vertical = 2
 autowrap_mode = 2
 
-[connection signal="pressed" from="CanvasLayer/Reset" to="." method="_on_reset_pressed"]
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer" unique_id=2084527816]
+custom_minimum_size = Vector2(200, 40)
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -59.0
+offset_top = -54.0
+offset_right = 59.0
+offset_bottom = -14.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="SubmitButton" type="Button" parent="CanvasLayer/HBoxContainer" unique_id=449237336]
+custom_minimum_size = Vector2(90, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Submit"
+
+[node name="Reset" type="Button" parent="CanvasLayer/HBoxContainer" unique_id=486303882]
+custom_minimum_size = Vector2(90, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Reset"
+
+[connection signal="pressed" from="CanvasLayer/Keyboard/Backspace" to="." method="_on_backspace_pressed"]
 [connection signal="pressed" from="CanvasLayer/HintButton" to="." method="_on_hint_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/HBoxContainer/SubmitButton" to="." method="_on_submit_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/HBoxContainer/Reset" to="." method="_on_reset_pressed"]

@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://dsyclh226nlwl"]
+
+[ext_resource type="Script" uid="uid://c0ic7ii1ik3te" path="res://scripts/audio_controller.gd" id="1_5dt40"]
+[ext_resource type="AudioStream" uid="uid://dq3e42w508jrm" path="res://assets/sfx/click3.ogg" id="2_cedxo"]
+[ext_resource type="AudioStream" uid="uid://cilhdp8osit8l" path="res://assets/sfx/013_Confirm_03.wav" id="3_6fhfa"]
+[ext_resource type="AudioStream" uid="uid://63utwlx5fjun" path="res://assets/sfx/033_Denied_03.wav" id="4_vj1x0"]
+
+[node name="AudioController" type="Node2D" unique_id=1658489004]
+script = ExtResource("1_5dt40")
+
+[node name="Button" type="AudioStreamPlayer" parent="." unique_id=575251302]
+stream = ExtResource("2_cedxo")
+
+[node name="Correct" type="AudioStreamPlayer" parent="." unique_id=846942248]
+stream = ExtResource("3_6fhfa")
+
+[node name="Wrong" type="AudioStreamPlayer" parent="." unique_id=1586323683]
+stream = ExtResource("4_vj1x0")
