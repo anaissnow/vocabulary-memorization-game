@@ -1,14 +1,22 @@
 [gd_scene format=3 uid="uid://dsyclh226nlwl"]
 
 [ext_resource type="Script" uid="uid://c0ic7ii1ik3te" path="res://scripts/audio_controller.gd" id="1_5dt40"]
+[ext_resource type="AudioStream" uid="uid://c5k1h1qmgdow6" path="res://assets/sfx/click1.ogg" id="2_12scf"]
 [ext_resource type="AudioStream" uid="uid://dq3e42w508jrm" path="res://assets/sfx/click3.ogg" id="2_cedxo"]
 [ext_resource type="AudioStream" uid="uid://cilhdp8osit8l" path="res://assets/sfx/013_Confirm_03.wav" id="3_6fhfa"]
+[ext_resource type="AudioStream" uid="uid://b2n26gvkhvwlj" path="res://assets/sfx/click2.ogg" id="3_nf7h6"]
 [ext_resource type="AudioStream" uid="uid://63utwlx5fjun" path="res://assets/sfx/033_Denied_03.wav" id="4_vj1x0"]
 
 [node name="AudioController" type="Node2D" unique_id=1658489004]
 script = ExtResource("1_5dt40")
 
-[node name="Button" type="AudioStreamPlayer" parent="." unique_id=575251302]
+[node name="Button1" type="AudioStreamPlayer" parent="." unique_id=575251302]
+stream = ExtResource("2_12scf")
+
+[node name="Button2" type="AudioStreamPlayer" parent="." unique_id=458566241]
+stream = ExtResource("3_nf7h6")
+
+[node name="Button3" type="AudioStreamPlayer" parent="." unique_id=1694160917]
 stream = ExtResource("2_cedxo")
 
 [node name="Correct" type="AudioStreamPlayer" parent="." unique_id=846942248]

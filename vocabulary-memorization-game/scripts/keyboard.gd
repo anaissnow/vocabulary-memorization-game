@@ -18,7 +18,7 @@ func _ready() -> void:
 
 
 func _on_letter_pressed(letter: String):
-	AudioController.play_button()
+	AudioController.play_button1()
 	key_pressed.emit(letter)
 
 
@@ -32,5 +32,5 @@ func _setup_row(row: HBoxContainer) -> void:
 					button.pressed.connect(_on_letter_pressed.bind(button.text))
 
 func _on_backspace_pressed():
-	AudioController.play_button()
+	AudioController.play_button3()
 	backspace_word_pressed.emit()

@@ -18,13 +18,13 @@ func _ready() -> void:
 	#image.texture = card.image
 
 func _on_reset_pressed() -> void:
-	AudioController.play_button()
+	AudioController.play_button2()
 	card_front.answer_label.text = ""
 	load_new_card()
 
 
 func _on_hint_button_pressed() -> void:
-	AudioController.play_button()
+	AudioController.play_button2()
 	card_front.reveal_next_hint()
 
 
@@ -34,7 +34,7 @@ func load_new_card():
 
 
 func _on_submit_button_pressed() -> void:
-	AudioController.play_button()
+	AudioController.play_button2()
 	await get_tree().create_timer(1.0).timeout
 	if card_front.check_answer(current_card):
 		AudioController.play_correct()
@@ -47,5 +47,5 @@ func _on_submit_button_pressed() -> void:
 
 
 func _on_backspace_pressed() -> void:
-	AudioController.play_button()
+	AudioController.play_button1()
 	card_front.backspace_word()
