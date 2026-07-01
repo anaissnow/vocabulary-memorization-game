@@ -190,4 +190,31 @@ custom_minimum_size = Vector2(30, 30)
 layout_mode = 2
 text = "M"
 
+[node name="HintButton" type="Button" parent="CanvasLayer" unique_id=1702076692]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -51.0
+offset_top = 10.0
+offset_right = -10.0
+offset_bottom = 41.0
+grow_horizontal = 0
+text = "Hint"
+
+[node name="LabelHint" type="Label" parent="CanvasLayer" unique_id=1637720636]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(260, 385)
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -275.0
+offset_top = 56.0
+offset_right = -13.0
+offset_bottom = -206.0
+grow_horizontal = 0
+grow_vertical = 2
+autowrap_mode = 2
+
 [connection signal="pressed" from="CanvasLayer/Reset" to="." method="_on_reset_pressed"]
+[connection signal="pressed" from="CanvasLayer/HintButton" to="." method="_on_hint_button_pressed"]

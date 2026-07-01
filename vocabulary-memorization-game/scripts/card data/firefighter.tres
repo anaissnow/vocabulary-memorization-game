@@ -7,9 +7,7 @@
 script = ExtResource("2_a37ee")
 image = ExtResource("1_x1tb0")
 answer = "firefighter"
-hint_meaning = "a career,
-responds to emergency that involves fire or natural disasters,
-works in the fire department"
+hint_lines = PackedStringArray("Saves people", "Deals with fire and other emergencies")
 hint_spelling = Array[String](["f", "i", "r", "e", "f", "i", "g", "h", "t", "e", "r"])
 difficulty = 2
 metadata/_custom_type_script = "uid://bjbn6skn2hnwh"

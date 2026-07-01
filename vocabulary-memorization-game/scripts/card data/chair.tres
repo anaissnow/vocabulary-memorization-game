@@ -7,8 +7,6 @@
 script = ExtResource("2_5yfkd")
 image = ExtResource("1_qcwrh")
 answer = "chair"
-hint_meaning = "something you sit on,
-made out of wood or plastic,
-has four legs and a back"
+hint_lines = PackedStringArray("Comes in many types of materials", "You sit on it", "Has a back and four legs")
 hint_spelling = Array[String](["c", "h", "a", "i", "r"])
 metadata/_custom_type_script = "uid://bjbn6skn2hnwh"

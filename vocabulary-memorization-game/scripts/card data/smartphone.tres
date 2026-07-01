@@ -7,9 +7,7 @@
 script = ExtResource("2_jkyid")
 image = ExtResource("1_rdjlr")
 answer = "SMARTPHONE"
-hint_meaning = "A rectangular metal with glass screen,
-You can play games and search for information,
-Everybody has it"
+hint_lines = PackedStringArray("Everybody has it", "Used to search for information or for entertainment", "Very useful for connecting with people")
 hint_spelling = Array[String](["S", "M", "A", "R", "T", "P", "H", "O", "N", "E"])
 difficulty = 2
 metadata/_custom_type_script = "uid://bjbn6skn2hnwh"

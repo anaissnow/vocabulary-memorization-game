@@ -4,7 +4,7 @@ class_name CardData
 @export var image: Texture2D
 @export var answer: String
 
-@export_multiline var hint_meaning: String
+@export var hint_lines: PackedStringArray
 @export var hint_category: String
 @export var hint_spelling: Array[String]
 

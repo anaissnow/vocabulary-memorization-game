@@ -5,8 +5,6 @@
 [resource]
 script = ExtResource("1_woi3e")
 answer = "dog"
-hint_meaning = "animal,
-kept as pet,
-man's best friend"
+hint_lines = PackedStringArray("Man\'s best friend", "Likes to play fetch", "Very loyal")
 hint_spelling = Array[String](["d", "o", "g"])
 metadata/_custom_type_script = "uid://bjbn6skn2hnwh"

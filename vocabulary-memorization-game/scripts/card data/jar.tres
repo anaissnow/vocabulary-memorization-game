@@ -7,8 +7,6 @@
 script = ExtResource("2_fkvgh")
 image = ExtResource("1_r0m28")
 answer = "Jar"
-hint_meaning = "Made of glass,
-Found in the kitchen,
-Used to store liquid"
+hint_lines = PackedStringArray("Made out of glass or plastic", "Stores liquid or powder", "Found in kitchens")
 hint_spelling = Array[String](["J", "A", "R"])
 metadata/_custom_type_script = "uid://bjbn6skn2hnwh"

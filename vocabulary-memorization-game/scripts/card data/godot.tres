@@ -7,8 +7,6 @@
 script = ExtResource("2_6co8d")
 image = ExtResource("1_168dm")
 answer = "Godot"
-hint_meaning = "Gear-shaped head,
-Mascot for a game engine,
-The brand of a free open-source software"
+hint_lines = PackedStringArray("Logo icon of a free open-source software game engine", "Looks like a gearhead")
 hint_spelling = Array[String](["G", "O", "D", "O", "T"])
 metadata/_custom_type_script = "uid://bjbn6skn2hnwh"
