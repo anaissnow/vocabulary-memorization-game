@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://biw6k7r10fafa"]
+
+[ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="1_563rg"]
+
+[resource]
+script = ExtResource("1_563rg")
+answer = "aunt"
+hint_spelling = Array[String](["a", "u", "n", "t"])
+metadata/_custom_type_script = "uid://bjbn6skn2hnwh"
