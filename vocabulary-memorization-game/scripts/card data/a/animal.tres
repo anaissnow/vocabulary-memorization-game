@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_ywql2")
 answer = "animal"
-hint_lines = PackedStringArray("")
+hint_lines = PackedStringArray("A living thing.", "A living thing that needs food and water and can usually move by itself.", "A living organism that gets energy by eating plants or other animals.")
 hint_spelling = Array[String](["a", "n", "i", "m", "a", "l"])
 metadata/_custom_type_script = "uid://bjbn6skn2hnwh"
