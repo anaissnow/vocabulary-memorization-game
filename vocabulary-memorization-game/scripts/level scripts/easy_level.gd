@@ -13,6 +13,7 @@ var current_card : CardData
 
 
 func _ready() -> void:
+	load_new_card()
 	keyboard.key_pressed.connect(card_front.append_letter)
 	print(card_front.get_answer_text())
 	#image.texture = card.image

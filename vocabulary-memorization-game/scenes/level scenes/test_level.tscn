@@ -1,42 +1,42 @@
 [gd_scene format=3 uid="uid://cauu7jhe00wfc"]
 
-[ext_resource type="Script" uid="uid://ch6mbox4xyywi" path="res://scripts/test_level.gd" id="1_ahbqi"]
-[ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="2_7gix3"]
-[ext_resource type="Resource" uid="uid://babrvk68rdwuw" path="res://scripts/card data/e/egg.tres" id="3_4asn1"]
-[ext_resource type="Resource" uid="uid://blt7v3glbhwa2" path="res://scripts/card data/c/chair.tres" id="5_fyxdr"]
-[ext_resource type="Resource" uid="uid://c6eophji132s3" path="res://scripts/card data/t/teacher.tres" id="7_qs1vn"]
-[ext_resource type="Resource" uid="uid://cog1vonx23440" path="res://scripts/card data/f/firefighter.tres" id="8_13hs1"]
-[ext_resource type="PackedScene" uid="uid://dslfvda24cytw" path="res://scenes/ui/card_front.tscn" id="9_7gix3"]
-[ext_resource type="Resource" uid="uid://c84tf4elmdm1i" path="res://scripts/card data/s/smartphone.tres" id="9_fyxdr"]
-[ext_resource type="Resource" uid="uid://bxf67r7wb2yvh" path="res://scripts/card data/a/airplane.tres" id="10_ebw8u"]
-[ext_resource type="Resource" uid="uid://c76q2ycyf7mvh" path="res://scripts/card data/d/dog.tres" id="10_kpk0m"]
-[ext_resource type="Resource" uid="uid://600jp4tgghl" path="res://scripts/card data/a/ant.tres" id="11_o82sj"]
-[ext_resource type="Resource" uid="uid://begw835lgsgne" path="res://scripts/card data/c/cat.tres" id="11_qs1vn"]
-[ext_resource type="Resource" uid="uid://5403od7w8r6w" path="res://scripts/card data/a/apron.tres" id="12_dlpwt"]
-[ext_resource type="Resource" uid="uid://bco7oitlq67ft" path="res://scripts/card data/b/bag.tres" id="13_cslnn"]
-[ext_resource type="Script" uid="uid://bvw8qwb0y5is2" path="res://scripts/keyboard.gd" id="13_kpk0m"]
-[ext_resource type="Resource" uid="uid://lhxwi35gilme" path="res://scripts/card data/b/book.tres" id="14_l0wrk"]
-[ext_resource type="Resource" uid="uid://c513j03df2uu8" path="res://scripts/card data/b/box.tres" id="15_y50l8"]
-[ext_resource type="Resource" uid="uid://bqcpvcvufubme" path="res://scripts/card data/b/boy.tres" id="16_37urb"]
-[ext_resource type="Resource" uid="uid://b6f36krb663hk" path="res://scripts/card data/b/bus.tres" id="17_7c1bf"]
-[ext_resource type="Resource" uid="uid://m0dwjuy63u77" path="res://scripts/card data/c/cake.tres" id="18_4stoq"]
-[ext_resource type="Resource" uid="uid://drh7w0hrse7bp" path="res://scripts/card data/c/candy.tres" id="19_p6yy4"]
-[ext_resource type="Resource" uid="uid://d0gv3ssmqorv0" path="res://scripts/card data/c/clock.tres" id="20_6o85p"]
-[ext_resource type="Resource" uid="uid://dmhcvb7eqbc0w" path="res://scripts/card data/c/cow.tres" id="21_sbwxm"]
-[ext_resource type="Resource" uid="uid://cyb5b0gnvnhr7" path="res://scripts/card data/d/desk.tres" id="22_cgwmx"]
-[ext_resource type="Resource" uid="uid://4niot1hw2tta" path="res://scripts/card data/d/doll.tres" id="23_l8bcr"]
-[ext_resource type="Resource" uid="uid://ou414wewuepe" path="res://scripts/card data/d/dish.tres" id="24_p5ain"]
-[ext_resource type="Resource" uid="uid://bnnygsfu2md3u" path="res://scripts/card data/d/dress.tres" id="25_uublg"]
-[ext_resource type="Resource" uid="uid://bss2hb6qo8gvd" path="res://scripts/card data/d/drum.tres" id="26_4ifyl"]
-[ext_resource type="Resource" uid="uid://bmw8e32kpydeb" path="res://scripts/card data/d/duck.tres" id="27_sy7yu"]
+[ext_resource type="Script" uid="uid://ch6mbox4xyywi" path="res://scripts/level scripts/test_level.gd" id="1_2q2br"]
+[ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="2_dm71f"]
+[ext_resource type="Resource" uid="uid://babrvk68rdwuw" path="res://scripts/card data/e/egg.tres" id="3_r0qtg"]
+[ext_resource type="Resource" uid="uid://blt7v3glbhwa2" path="res://scripts/card data/c/chair.tres" id="4_88cas"]
+[ext_resource type="Resource" uid="uid://c6eophji132s3" path="res://scripts/card data/t/teacher.tres" id="5_o2gci"]
+[ext_resource type="Resource" uid="uid://cog1vonx23440" path="res://scripts/card data/f/firefighter.tres" id="6_a8ms2"]
+[ext_resource type="Resource" uid="uid://c84tf4elmdm1i" path="res://scripts/card data/s/smartphone.tres" id="7_a4afr"]
+[ext_resource type="Resource" uid="uid://c76q2ycyf7mvh" path="res://scripts/card data/d/dog.tres" id="8_0q8dq"]
+[ext_resource type="Resource" uid="uid://begw835lgsgne" path="res://scripts/card data/c/cat.tres" id="9_sg50p"]
+[ext_resource type="Resource" uid="uid://bxf67r7wb2yvh" path="res://scripts/card data/a/airplane.tres" id="10_lchb2"]
+[ext_resource type="Resource" uid="uid://600jp4tgghl" path="res://scripts/card data/a/ant.tres" id="11_bss2p"]
+[ext_resource type="Resource" uid="uid://5403od7w8r6w" path="res://scripts/card data/a/apron.tres" id="12_nbejw"]
+[ext_resource type="Resource" uid="uid://bco7oitlq67ft" path="res://scripts/card data/b/bag.tres" id="13_q63bv"]
+[ext_resource type="Resource" uid="uid://lhxwi35gilme" path="res://scripts/card data/b/book.tres" id="14_brfv8"]
+[ext_resource type="Resource" uid="uid://c513j03df2uu8" path="res://scripts/card data/b/box.tres" id="15_ey7o3"]
+[ext_resource type="Resource" uid="uid://bqcpvcvufubme" path="res://scripts/card data/b/boy.tres" id="16_4hfu6"]
+[ext_resource type="Resource" uid="uid://b6f36krb663hk" path="res://scripts/card data/b/bus.tres" id="17_latxw"]
+[ext_resource type="Resource" uid="uid://m0dwjuy63u77" path="res://scripts/card data/c/cake.tres" id="18_d0s56"]
+[ext_resource type="Resource" uid="uid://drh7w0hrse7bp" path="res://scripts/card data/c/candy.tres" id="19_lkedx"]
+[ext_resource type="Resource" uid="uid://d0gv3ssmqorv0" path="res://scripts/card data/c/clock.tres" id="20_6qxv8"]
+[ext_resource type="Resource" uid="uid://dmhcvb7eqbc0w" path="res://scripts/card data/c/cow.tres" id="21_i8luk"]
+[ext_resource type="Resource" uid="uid://cyb5b0gnvnhr7" path="res://scripts/card data/d/desk.tres" id="22_fdsdi"]
+[ext_resource type="Resource" uid="uid://4niot1hw2tta" path="res://scripts/card data/d/doll.tres" id="23_p8vuc"]
+[ext_resource type="Resource" uid="uid://ou414wewuepe" path="res://scripts/card data/d/dish.tres" id="24_06hsd"]
+[ext_resource type="Resource" uid="uid://bnnygsfu2md3u" path="res://scripts/card data/d/dress.tres" id="25_sxami"]
+[ext_resource type="Resource" uid="uid://bss2hb6qo8gvd" path="res://scripts/card data/d/drum.tres" id="26_ljaou"]
+[ext_resource type="Resource" uid="uid://bmw8e32kpydeb" path="res://scripts/card data/d/duck.tres" id="27_1gki6"]
+[ext_resource type="PackedScene" uid="uid://dslfvda24cytw" path="res://scenes/ui/card_front.tscn" id="28_lwdhb"]
+[ext_resource type="Script" uid="uid://bvw8qwb0y5is2" path="res://scripts/keyboard.gd" id="29_qccai"]
 
 [node name="TestLevel" type="Node2D" unique_id=41328260]
-script = ExtResource("1_ahbqi")
-cards = Array[ExtResource("2_7gix3")]([ExtResource("3_4asn1"), ExtResource("5_fyxdr"), ExtResource("7_qs1vn"), ExtResource("8_13hs1"), ExtResource("9_fyxdr"), ExtResource("10_kpk0m"), ExtResource("11_qs1vn"), ExtResource("10_ebw8u"), ExtResource("11_o82sj"), ExtResource("12_dlpwt"), ExtResource("13_cslnn"), ExtResource("14_l0wrk"), ExtResource("15_y50l8"), ExtResource("16_37urb"), ExtResource("17_7c1bf"), ExtResource("18_4stoq"), ExtResource("19_p6yy4"), ExtResource("20_6o85p"), ExtResource("21_sbwxm"), ExtResource("22_cgwmx"), ExtResource("23_l8bcr"), ExtResource("24_p5ain"), ExtResource("25_uublg"), ExtResource("26_4ifyl"), ExtResource("27_sy7yu")])
+script = ExtResource("1_2q2br")
+cards = Array[ExtResource("2_dm71f")]([ExtResource("3_r0qtg"), ExtResource("4_88cas"), ExtResource("5_o2gci"), ExtResource("6_a8ms2"), ExtResource("7_a4afr"), ExtResource("8_0q8dq"), ExtResource("9_sg50p"), ExtResource("10_lchb2"), ExtResource("11_bss2p"), ExtResource("12_nbejw"), ExtResource("13_q63bv"), ExtResource("14_brfv8"), ExtResource("15_ey7o3"), ExtResource("16_4hfu6"), ExtResource("17_latxw"), ExtResource("18_d0s56"), ExtResource("19_lkedx"), ExtResource("20_6qxv8"), ExtResource("21_i8luk"), ExtResource("22_fdsdi"), ExtResource("23_p8vuc"), ExtResource("24_06hsd"), ExtResource("25_sxami"), ExtResource("26_ljaou"), ExtResource("27_1gki6")])
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1397606924]
 
-[node name="CardFront" parent="CanvasLayer" unique_id=225734269 instance=ExtResource("9_7gix3")]
+[node name="CardFront" parent="CanvasLayer" unique_id=225734269 instance=ExtResource("28_lwdhb")]
 anchors_preset = 5
 anchor_top = 0.0
 anchor_bottom = 0.0
@@ -59,7 +59,7 @@ offset_bottom = -69.0
 grow_horizontal = 2
 grow_vertical = 0
 size_flags_horizontal = 4
-script = ExtResource("13_kpk0m")
+script = ExtResource("29_qccai")
 
 [node name="TopRow" type="HBoxContainer" parent="CanvasLayer/Keyboard" unique_id=2008636772]
 layout_mode = 2

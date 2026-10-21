@@ -4,11 +4,13 @@ extends Control
 @onready var play_button: Button = $CanvasLayer/MarginContainer/VBoxContainer/PlayButton
 @onready var settings_button: Button = $CanvasLayer/MarginContainer/VBoxContainer/SettingsButton
 @onready var quit_button: Button = $CanvasLayer/MarginContainer/VBoxContainer/QuitButton
+@onready var level_menu: Panel = $CanvasLayer/LevelMenu
+
 var level = preload("uid://cauu7jhe00wfc")
 
 func _on_play_button_pressed() -> void:
 	AudioController.play_button1()
-	get_tree().change_scene_to_packed(level)
+	level_menu.show()
 
 
 func _on_settings_button_pressed() -> void:

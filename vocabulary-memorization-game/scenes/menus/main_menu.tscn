@@ -1,6 +1,10 @@
 [gd_scene format=3 uid="uid://dd4ixh01ueche"]
 
 [ext_resource type="Script" uid="uid://b0prdai6v78t" path="res://scripts/main_menu.gd" id="1_xqga4"]
+[ext_resource type="Script" uid="uid://k1nb1yv33g5g" path="res://scripts/level_menu.gd" id="2_ovrgc"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g4v7s"]
+bg_color = Color(0, 0, 0, 0.84313726)
 
 [node name="MainMenu" type="Control" unique_id=1412585451]
 layout_mode = 3
@@ -58,6 +62,68 @@ size_flags_horizontal = 4
 theme_override_font_sizes/font_size = 24
 text = "Quit"
 
+[node name="LevelMenu" type="Panel" parent="CanvasLayer" unique_id=171831430]
+custom_minimum_size = Vector2(250, 300)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -125.0
+offset_top = -100.0
+offset_right = 125.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_g4v7s")
+script = ExtResource("2_ovrgc")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/LevelMenu" unique_id=534536430]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -58.5
+offset_top = -109.0
+offset_right = 58.5
+offset_bottom = 109.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 6
+
+[node name="TestLevelBtn" type="Button" parent="CanvasLayer/LevelMenu/VBoxContainer" unique_id=531975913]
+layout_mode = 2
+size_flags_horizontal = 5
+text = "Test Level"
+
+[node name="EasyLevelBtn" type="Button" parent="CanvasLayer/LevelMenu/VBoxContainer" unique_id=1908945915]
+layout_mode = 2
+size_flags_horizontal = 5
+text = "Easy Level"
+
+[node name="MedLevelBtn" type="Button" parent="CanvasLayer/LevelMenu/VBoxContainer" unique_id=1044292582]
+layout_mode = 2
+size_flags_horizontal = 5
+text = "Medium Level"
+
+[node name="HardLevelBtn" type="Button" parent="CanvasLayer/LevelMenu/VBoxContainer" unique_id=1906653654]
+layout_mode = 2
+size_flags_horizontal = 5
+text = "Hard Level"
+
+[node name="BackBtn" type="Button" parent="CanvasLayer/LevelMenu/VBoxContainer" unique_id=1300919641]
+layout_mode = 2
+text = "Back"
+
 [connection signal="pressed" from="CanvasLayer/MarginContainer/VBoxContainer/PlayButton" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="CanvasLayer/MarginContainer/VBoxContainer/SettingsButton" to="." method="_on_settings_button_pressed"]
 [connection signal="pressed" from="CanvasLayer/MarginContainer/VBoxContainer/QuitButton" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/LevelMenu/VBoxContainer/TestLevelBtn" to="CanvasLayer/LevelMenu" method="_on_test_level_btn_pressed"]
+[connection signal="pressed" from="CanvasLayer/LevelMenu/VBoxContainer/EasyLevelBtn" to="CanvasLayer/LevelMenu" method="_on_easy_level_btn_pressed"]
+[connection signal="pressed" from="CanvasLayer/LevelMenu/VBoxContainer/MedLevelBtn" to="CanvasLayer/LevelMenu" method="_on_med_level_btn_pressed"]
+[connection signal="pressed" from="CanvasLayer/LevelMenu/VBoxContainer/HardLevelBtn" to="CanvasLayer/LevelMenu" method="_on_hard_level_btn_pressed"]
+[connection signal="pressed" from="CanvasLayer/LevelMenu/VBoxContainer/BackBtn" to="CanvasLayer/LevelMenu" method="_on_back_btn_pressed"]
