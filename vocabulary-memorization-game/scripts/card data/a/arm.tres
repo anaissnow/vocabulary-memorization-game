@@ -1,9 +1,12 @@
 [gd_resource type="Resource" script_class="CardData" format=3 uid="uid://k2op1nqhb7c7"]
 
 [ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="1_3m8gj"]
+[ext_resource type="Texture2D" uid="uid://cslicnv54ib70" path="res://assets/card images/arm.jpg" id="1_h2oeh"]
 
 [resource]
 script = ExtResource("1_3m8gj")
+image = ExtResource("1_h2oeh")
 answer = "arm"
+hint_lines = PackedStringArray("It is a limb.", "It is used to point at things.", "It can pick up objects of various sizes and weights.")
 hint_spelling = Array[String](["a", "r", "m"])
 metadata/_custom_type_script = "uid://bjbn6skn2hnwh"

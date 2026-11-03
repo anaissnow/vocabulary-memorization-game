@@ -4,10 +4,9 @@ extends Node2D
 
 @onready var card_front: Flashcard = $CanvasLayer/CardFront
 @onready var keyboard: GridContainer = $CanvasLayer/Keyboard
-@onready var label_hint: Label = $CanvasLayer/LabelHint
+@onready var label_hint: Label = %LabelHint
 
 @export var cards: Array[CardData]
-#@onready var card = cards.pick_random()
 @onready var image = card_front.get_node("%Image")
 var current_card : CardData
 
@@ -50,3 +49,7 @@ func _on_submit_button_pressed() -> void:
 func _on_backspace_pressed() -> void:
 	AudioController.play_button1()
 	card_front.backspace_word()
+
+
+func _on_pause_btn_pressed() -> void:
+	pass # Replace with function body.

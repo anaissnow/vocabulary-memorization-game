@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cjteix7mfmbis"
-path="res://.godot/imported/smartphone.png-f2be0306226c640f4c829925528d812b.ctex"
+uid="uid://dpkfe41v0hc10"
+path="res://.godot/imported/arrow.jpg-532a8736f01923c36d461f27275c782a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/card images/smartphone.png"
-dest_files=["res://.godot/imported/smartphone.png-f2be0306226c640f4c829925528d812b.ctex"]
+source_file="res://assets/card images/arrow.jpg"
+dest_files=["res://.godot/imported/arrow.jpg-532a8736f01923c36d461f27275c782a.ctex"]
 
 [params]
 

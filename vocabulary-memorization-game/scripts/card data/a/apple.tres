@@ -1,9 +1,12 @@
 [gd_resource type="Resource" script_class="CardData" format=3 uid="uid://br2ktsjps83fu"]
 
 [ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="1_2emhb"]
+[ext_resource type="Texture2D" uid="uid://j7pbl61ame13" path="res://assets/card images/apple.jpg" id="1_c4p3i"]
 
 [resource]
 script = ExtResource("1_2emhb")
+image = ExtResource("1_c4p3i")
 answer = "apple"
+hint_lines = PackedStringArray("It is a fruit.", "It grows on trees.", "It is red or green colour.")
 hint_spelling = Array[String](["a", "p", "p", "l", "e"])
 metadata/_custom_type_script = "uid://bjbn6skn2hnwh"

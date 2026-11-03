@@ -1,9 +1,12 @@
 [gd_resource type="Resource" script_class="CardData" format=3 uid="uid://biw6k7r10fafa"]
 
+[ext_resource type="Texture2D" uid="uid://bapilgaet2n30" path="res://assets/card images/aunt.jpg" id="1_1pogf"]
 [ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="1_563rg"]
 
 [resource]
 script = ExtResource("1_563rg")
+image = ExtResource("1_1pogf")
 answer = "aunt"
+hint_lines = PackedStringArray("She is a family member.", "She is the sister of your mom or dad.", "She visits during special occasions.")
 hint_spelling = Array[String](["a", "u", "n", "t"])
 metadata/_custom_type_script = "uid://bjbn6skn2hnwh"

@@ -13,13 +13,6 @@ var current_hint : int = 0
 
 
 func show_card(card: CardData):
-	#print("RAW HINT: ")
-	#print(card.hint_lines)
-	#
-	#print("SPLIT RESULT: ")
-	#print(hint_lines)
-	#print("SIZE: ", hint_lines.size())
-	
 	hint_lines = card.hint_lines
 	current_hint = 0
 	image.texture = card.image

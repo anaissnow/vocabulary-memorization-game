@@ -1,9 +1,11 @@
 [gd_resource type="Resource" script_class="CardData" format=3 uid="uid://600jp4tgghl"]
 
 [ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="1_lww67"]
+[ext_resource type="Texture2D" uid="uid://c8caniu5s5yjv" path="res://assets/card images/ant.jpg" id="1_q37qd"]
 
 [resource]
 script = ExtResource("1_lww67")
+image = ExtResource("1_q37qd")
 answer = "ant"
 hint_lines = PackedStringArray("It is an insect.", "It likes sweet foods.", "It is an insect that lives underground.")
 hint_spelling = Array[String](["a", "n", "t"])

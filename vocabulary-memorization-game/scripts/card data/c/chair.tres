@@ -1,11 +1,9 @@
 [gd_resource type="Resource" script_class="CardData" format=3 uid="uid://blt7v3glbhwa2"]
 
-[ext_resource type="Texture2D" uid="uid://hx0y58dllsls" path="res://assets/card images/chair.svg" id="1_qcwrh"]
 [ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="2_5yfkd"]
 
 [resource]
 script = ExtResource("2_5yfkd")
-image = ExtResource("1_qcwrh")
 answer = "chair"
 hint_lines = PackedStringArray("Comes in many types of materials", "You sit on it", "Has a back and four legs")
 hint_spelling = Array[String](["c", "h", "a", "i", "r"])

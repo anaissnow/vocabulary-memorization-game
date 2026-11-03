@@ -1,9 +1,12 @@
 [gd_resource type="Resource" script_class="CardData" format=3 uid="uid://5403od7w8r6w"]
 
+[ext_resource type="Texture2D" uid="uid://b2g3ieru3i6om" path="res://assets/card images/apron.jpg" id="1_0kbol"]
 [ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="1_s0y0d"]
 
 [resource]
 script = ExtResource("1_s0y0d")
+image = ExtResource("1_0kbol")
 answer = "apron"
+hint_lines = PackedStringArray("It is a clothing.", "It is worn to keep the person clean.", "It is used by people who are often in the kitchen.")
 hint_spelling = Array[String](["a", "p", "r", "o", "n"])
 metadata/_custom_type_script = "uid://bjbn6skn2hnwh"

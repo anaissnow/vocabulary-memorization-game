@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hx0y58dllsls"
-path="res://.godot/imported/chair.svg-756832616e61939417390f46ab8ec6ff.ctex"
+uid="uid://dxeuqn3y3a0j0"
+path="res://.godot/imported/animal.jpg-75f54c5b02c1e655ff8cf8f89f1a2f07.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/card images/chair.svg"
-dest_files=["res://.godot/imported/chair.svg-756832616e61939417390f46ab8ec6ff.ctex"]
+source_file="res://assets/card images/animal.jpg"
+dest_files=["res://.godot/imported/animal.jpg-75f54c5b02c1e655ff8cf8f89f1a2f07.ctex"]
 
 [params]
 
@@ -38,6 +38,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false

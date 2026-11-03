@@ -1,9 +1,11 @@
 [gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bxf67r7wb2yvh"]
 
+[ext_resource type="Texture2D" uid="uid://blkjf4jqlyoyr" path="res://assets/card images/airplane.jpg" id="1_4h6wm"]
 [ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="1_l2c8t"]
 
 [resource]
 script = ExtResource("1_l2c8t")
+image = ExtResource("1_4h6wm")
 answer = "airplane"
 hint_lines = PackedStringArray("It is a vehicle.", "It can fly.", "It brings people across great distance through the air.")
 hint_spelling = Array[String](["a", "i", "r", "p", "l", "a", "n", "e"])

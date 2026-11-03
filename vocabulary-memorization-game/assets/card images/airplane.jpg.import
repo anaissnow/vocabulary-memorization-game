@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://byeu0vjdfem0o"
-path="res://.godot/imported/Jar.png-073f46ad2914264a44fbb74a30b093f5.ctex"
+uid="uid://blkjf4jqlyoyr"
+path="res://.godot/imported/airplane.jpg-7ab27fc48fb4bf44fcccafc054219500.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/card images/Jar.png"
-dest_files=["res://.godot/imported/Jar.png-073f46ad2914264a44fbb74a30b093f5.ctex"]
+source_file="res://assets/card images/airplane.jpg"
+dest_files=["res://.godot/imported/airplane.jpg-7ab27fc48fb4bf44fcccafc054219500.ctex"]
 
 [params]
 

@@ -1,9 +1,11 @@
 [gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dlika2hyoxx81"]
 
+[ext_resource type="Texture2D" uid="uid://bbv0q0aftdl8j" path="res://assets/card images/alarm.jpg" id="1_vcg7y"]
 [ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="1_vnqyb"]
 
 [resource]
 script = ExtResource("1_vnqyb")
+image = ExtResource("1_vcg7y")
 answer = "alarm"
 hint_lines = PackedStringArray("It is an object.", "It rings.", "It awaken people from sleep to get up for work or school.")
 hint_spelling = Array[String](["a", "l", "a", "r", "m"])

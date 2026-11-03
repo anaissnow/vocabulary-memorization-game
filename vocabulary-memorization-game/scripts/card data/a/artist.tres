@@ -1,9 +1,12 @@
 [gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cg0hc0ypt1ns0"]
 
+[ext_resource type="Texture2D" uid="uid://sg1vecj2ec00" path="res://assets/card images/artist.jpg" id="1_i21ib"]
 [ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="1_ytqqr"]
 
 [resource]
 script = ExtResource("1_ytqqr")
+image = ExtResource("1_i21ib")
 answer = "artist"
+hint_lines = PackedStringArray("It is a career.", "The person creates things.", "The person paints the environment and the people.")
 hint_spelling = Array[String](["a", "r", "t", "i", "s", "t"])
 metadata/_custom_type_script = "uid://bjbn6skn2hnwh"

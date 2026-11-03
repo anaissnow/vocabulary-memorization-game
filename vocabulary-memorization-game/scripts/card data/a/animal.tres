@@ -1,9 +1,11 @@
 [gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cbpp6y710ryet"]
 
+[ext_resource type="Texture2D" uid="uid://dxeuqn3y3a0j0" path="res://assets/card images/animal.jpg" id="1_o6w1v"]
 [ext_resource type="Script" uid="uid://bjbn6skn2hnwh" path="res://scripts/resource/CardData.gd" id="1_ywql2"]
 
 [resource]
 script = ExtResource("1_ywql2")
+image = ExtResource("1_o6w1v")
 answer = "animal"
 hint_lines = PackedStringArray("A living thing.", "A living thing that needs food and water and can usually move by itself.", "A living organism that gets energy by eating plants or other animals.")
 hint_spelling = Array[String](["a", "n", "i", "m", "a", "l"])
